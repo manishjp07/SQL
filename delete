@@ -1,0 +1,2 @@
+delete from student where age =23 \* this command will delete the rows where the age is 23*\
+delete from student \* this will delete the every rows from the table*\
