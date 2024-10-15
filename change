@@ -1,0 +1,5 @@
+CHANGING VARIABLE NAME:
+alter table student change marks_scored marks varchar(100)
+
+CHANGING DATATYPE:
+alter table teacher age age varchar(100)
