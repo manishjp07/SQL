@@ -1,0 +1,1 @@
+update student set age =23 \* this command will set all ages in the column to 23 as default *\
