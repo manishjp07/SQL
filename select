@@ -1,1 +1,3 @@
-select * from student
+select * from student \* it will display all columns from the given table 
+
+select customer_id, mobile_number from student \* it displays only customer id and mobile number from the table customer
