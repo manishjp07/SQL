@@ -1,0 +1,2 @@
+select * from students where name='William Turner' or name= 'Alice Brown'
+select * from students where name in ('William Turner','Alice Brown')
