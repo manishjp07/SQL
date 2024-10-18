@@ -5,3 +5,5 @@ sum()
 count()
 order by \* it is sorting method we can sort it either in acsending or desending order
 group by \* it is used to perform max(),min(),avg(),sum(),count() by a specific category wise for ex. if i want the avg of marks department wise, i can use this method
+Example:
+select count(student_name),department from student group by department order by count(student_name) desc
