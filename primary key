@@ -1,1 +1,9 @@
-alter table books add constraint pk_bookid primary key(bookid)
+alter table books add constraint pk_bookid primary key(bookid) \* setting a primary key after creating a table 
+
+create table books(
+bookid int primary key,
+title varchar(100)
+)
+
+
+\*We can set the primary key while creating a table like the above example
