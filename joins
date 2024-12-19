@@ -4,5 +4,5 @@ select * from manager
 select * from projects
 
 INNER JOIN:
-select emp_name.e,dept_name.d from employee.e, department.d on dept_id.e = dept_id.d
+select emp_name.e,dept_name.d from employee.e inner join department.d on dept_id.e = dept_id.d
 **By using the above query, the inner join(this join happening between the entities which are commonly present in both the tables based on the given join condition) between two table can be done by the join condition (dept_id.e = dept_id.d) and there is no need for the columns in the join condition should have the same name, it can be possible by having different column names.
