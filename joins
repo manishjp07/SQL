@@ -18,3 +18,10 @@ RIGHT JOIN:
 **Right join= inner joins + any additional records present in the right table
 select emp_name.e,dept_name.d from employee.e right join department.d on dept_id.e = dept_id.d
 **it will joins all the entities which are in common in between those two columns and remaining entities in the right table will be assigned as null
+
+EX. Fetch all the employee name and their manager name, project, dept
+
+select e.employee_name,d.dept_name,m.manager_name,p.project_name from employee e
+left join department d on d.dept_id = e.dept_id
+inner join manager m on m.manager_id = e.manager_id
+left join project p on p.team_member_id = e.emp_id
